@@ -86,7 +86,23 @@ body {
   gap: 14px;
   flex-wrap: wrap;
 }
+.resume-buttons {
+  margin: 20px 0;
+}
 
+.resume-frame {
+  width: 100%;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.resume-frame iframe {
+  border: none;
+  border-radius: 8px;
+}
 .btn {
   padding: 12px 22px;
   border-radius: 8px;
